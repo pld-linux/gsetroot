@@ -32,6 +32,13 @@ IceWM oraz innych.
 %setup -q
 
 %build
+%{__intltoolize}
+%{__gettextize}
+%{__libtoolize}
+%{__aclocal}
+%{__autoconf}
+%{__autoheader}
+%{__automake}
 %configure
 %{__make}
 
