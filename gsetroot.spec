@@ -10,8 +10,10 @@ Source0:	http://dl.sourceforge.net/gsetroot/%{name}-%{version}.tar.gz
 URL:		http://gsetroot.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	glitz-devel
 BuildRequires:	gtk+2-devel
+BuildRequires:	intltool
 BuildRequires:	libtool
 Requires:	Esetroot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
