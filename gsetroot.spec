@@ -1,5 +1,5 @@
 Summary:	gsetroot - front-end for Esetroot
-Summary(pl):	gsetroot - front-end dla Esetroot
+Summary(pl):	gsetroot - frontend dla programu Esetroot
 Name:		gsetroot
 Version:	1.0
 Release:	1
@@ -10,11 +10,12 @@ Source0:	http://dl.sourceforge.net/gsetroot/%{name}-%{version}.tar.gz
 URL:		http://gsetroot.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-devel >= 0.10.40
 BuildRequires:	glitz-devel
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2-devel >= 2.0
 BuildRequires:	intltool
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 Requires:	Esetroot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,10 +26,10 @@ like FluxBox, Enlightenment, WindowMaker, NextStep, BlackBox, IceWM
 and others.
 
 %description -l pl
-gsetroot jest front-endem dla Esetroot. Mo¿e byæ u¿ywany do wybierania
-tapety i konfigurowania nadrzêdnego okna. Dzia³a w takich Mened¿erach
-Okien jak fluxbox, Enlightement, Windowmaker, NextStep, BlackBox,
-IceWM oraz innych.
+gsetroot jest frontendem dla programu Esetroot. Mo¿e byæ u¿ywany do
+wybierania tapety i konfigurowania nadrzêdnego okna. Dzia³a w takich
+zarz±dcach okien jak fluxbox, Enlightement, WindowMaker, NextStep,
+BlackBox, IceWM oraz innych.
 
 %prep
 %setup -q
