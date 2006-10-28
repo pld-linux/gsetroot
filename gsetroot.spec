@@ -1,12 +1,12 @@
 Summary:	gsetroot - front-end for Esetroot
 Summary(pl):	gsetroot - frontend dla programu Esetroot
 Name:		gsetroot
-Version:	1.0
+Version:	1.1
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/gsetroot/%{name}-%{version}.tar.gz
-# Source0-md5:	8abbb5cf0cae3128059d6a1151d29604
+# Source0-md5:	611ec41489ef50405aca545e32edf264
 URL:		http://gsetroot.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
