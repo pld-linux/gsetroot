@@ -1,5 +1,5 @@
 Summary:	gsetroot - front-end for Esetroot
-Summary(pl):	gsetroot - frontend dla programu Esetroot
+Summary(pl.UTF-8):   gsetroot - frontend dla programu Esetroot
 Name:		gsetroot
 Version:	1.1
 Release:	1
@@ -25,10 +25,10 @@ wallpaper and configure root window. It works under Window Managers
 like FluxBox, Enlightenment, WindowMaker, NextStep, BlackBox, IceWM
 and others.
 
-%description -l pl
-gsetroot jest frontendem dla programu Esetroot. Mo¿e byæ u¿ywany do
-wybierania tapety i konfigurowania nadrzêdnego okna. Dzia³a w takich
-zarz±dcach okien jak fluxbox, Enlightement, WindowMaker, NextStep,
+%description -l pl.UTF-8
+gsetroot jest frontendem dla programu Esetroot. MoÅ¼e byÄ‡ uÅ¼ywany do
+wybierania tapety i konfigurowania nadrzÄ™dnego okna. DziaÅ‚a w takich
+zarzÄ…dcach okien jak fluxbox, Enlightement, WindowMaker, NextStep,
 BlackBox, IceWM oraz innych.
 
 %prep
