@@ -1,5 +1,5 @@
 Summary:	gsetroot - front-end for Esetroot
-Summary(pl.UTF-8):   gsetroot - frontend dla programu Esetroot
+Summary(pl.UTF-8):	gsetroot - frontend dla programu Esetroot
 Name:		gsetroot
 Version:	1.1
 Release:	1
