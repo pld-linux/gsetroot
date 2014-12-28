@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/gsetroot/%{name}-%{version}.tar.gz
 URL:		http://gsetroot.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel >= 0.10.40
+BuildRequires:	gettext-tools >= 0.10.40
 BuildRequires:	glitz-devel
 BuildRequires:	gtk+2-devel >= 2.0
 BuildRequires:	intltool
